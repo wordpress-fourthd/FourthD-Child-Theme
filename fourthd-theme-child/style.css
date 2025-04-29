@@ -1,0 +1,110 @@
+/* 
+Theme Name: Fourthd Theme
+Theme URI: https://fourthd.io
+Description: Fourthd Theme is a child theme of Hello Elementor, created by Fourthd team
+Author: Fourthd Team
+Author URI: https://fourthd.io
+Template: hello-elementor
+Version: 1.0.1
+Text Domain: fourthd-theme
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/*
+    Add your custom styles here
+*/
+
+/* Global styling start */
+@media only screen and (min-width: 1281px) {
+
+    .elementor[data-elementor-type="header"]>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-post"]>.elementor-element.e-con,
+    .elementor[data-elementor-type="footer"]>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-page"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="archive"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product-archive"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="single-post"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="header"]>div>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-post"]>div>.elementor-element.e-con,
+    .elementor[data-elementor-type="footer"]>div>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-page"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="archive"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product-archive"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="single-post"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor-editor-active .elementor[data-elementor-type="wp-page"]>div>.elementor-element.e-con:not(.full-width) {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+
+    .elementor[data-elementor-type="header"]>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-post"]>.elementor-element.e-con,
+    .elementor[data-elementor-type="footer"]>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-page"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="archive"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product-archive"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="single-post"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="header"]>div>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-post"]>div>.elementor-element.e-con,
+    .elementor[data-elementor-type="footer"]>div>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-page"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="archive"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product-archive"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="single-post"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor-editor-active .elementor[data-elementor-type="wp-page"]>div>.elementor-element.e-con:not(.full-width) {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .elementor[data-elementor-type="header"]>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-post"]>.elementor-element.e-con,
+    .elementor[data-elementor-type="footer"]>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-page"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="archive"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product-archive"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="single-post"]>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="header"]>div>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-post"]>div>.elementor-element.e-con,
+    .elementor[data-elementor-type="footer"]>div>.elementor-element.e-con,
+    .elementor[data-elementor-type="wp-page"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="archive"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product-archive"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="product"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor[data-elementor-type="single-post"]>div>.elementor-element.e-con:not(.full-width),
+    .elementor-editor-active .elementor[data-elementor-type="wp-page"]>div>.elementor-element.e-con:not(.full-width) {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+/* Global styling end */
+
+/* /-------------Responsive Styles-------------/ */
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1024px) {}
+
+@media (min-width: 993px) and (max-width: 1024px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media (min-width: 769px) and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (min-width: 768px) {}
+
+/* /-------------------------------------------/ */
